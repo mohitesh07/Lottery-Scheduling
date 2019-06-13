@@ -8,7 +8,9 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 A probabilistic scheduling algorithm for process in operating system. Processes are each assigned some number of lottery tickets based on its priority; and scheduler draws a random ticket to select the next process. Solving the problem of starvation. [See them in action here].
+
 Here some random number of process is generated with different arrival times and different priorities; and an comparison is done to see how much it acts as a priority based scheduler.
+
 Make sure you have must have GCC 5.1.0 installed.
 
 ```
@@ -22,9 +24,11 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ### Usage Instructions
 Compile the lottery_scheduling.c code using the following instructions;
+
 gcc lottery_scheduling.c -o lottery 
 
 execute the following command
+
 ./lottery
 
 ### Output Format
