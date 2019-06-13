@@ -24,12 +24,14 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ### Usage Instructions
 Compile the lottery_scheduling.c code using the following instructions;
-
+```
 gcc lottery_scheduling.c -o lottery 
+```
 
 execute the following command
-
+```
 ./lottery
+```
 
 ### Output Format
 
